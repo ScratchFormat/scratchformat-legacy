@@ -1,0 +1,47 @@
+#scratchformat {
+	border: 1px solid rgb(169, 169, 169);
+	width: 500px;
+	height: 20px;
+	box-shadow: inset 0 1px 1px #ccc;
+	border-radius: 3px;
+	margin-bottom: 10px;
+	padding: 4px;
+}
+.sf-option {
+	width: 17px;
+	height: 17px;
+	cursor: pointer;
+	margin-left: 3px;
+}
+#Help {
+	float: right;
+}
+#HelpPopup {
+	width: 80%;
+	height: 80%;
+	border: 1px solid black;
+	background-color: white;
+	position: fixed;
+	z-index: 999;
+	top: 40px;
+	overflow-y: scroll;
+	display: none;
+	left: 140px;
+	background-color: white;
+}
+#HelpPopup iframe {
+	border: transparent;
+	width: 100%;
+	height: 100%;
+}
+#close1 {
+	float: right;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-bottom: -20px
+	height: 30px;
+	width: 30px;
+}
+#Refresh {
+	float: right;
+}
